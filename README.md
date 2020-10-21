@@ -17,9 +17,14 @@ Install GO to build the tool.
 
 * The tool would only work on valid TLS endpoints
 
+* For simplicity I consider every http response which is not 200 as a failure.
+
 ## 4. Observations
 
-The mean response time for amazon and google was in a close range of 170-180 millisecond range. The worker project URL was faster and came around 130 millisecond. Linkedin was the slowest with mean response time of 447 milliseconds.
+(All observations are made on 10 request iterations)
+The mean response time for amazon and google was in a close range of 170-180 ms range. The worker project URL was faster and came around 130 ms. Pinterest was slower with mean response time of 303 ms.
+Reddit was the slowest with mean response time of 3737 ms. 
+
 
 ## Screenshots
 
@@ -28,6 +33,12 @@ Links_JSON_output:
 
 Links_Profiler:
 ![Links_Profiler](Screenshots/links_profiler.png)
+
+Reddit_profiler:
+![Reddit_profiler](Screenshots/reddit_profiler.png)
+
+Pinterest_profiler:
+![Pinterest_profiler](Screenshots/pinterest_profiler.png)
 
 Google_Profiler:
 ![Google_Profiler](Screenshots/google_profiler.png)
