@@ -45,5 +45,3 @@ Google_Profiler:
 
 Amazon_Profiler:
 ![Amazon_Profiler](Screenshots/amazon_profiler.png)
-
-
